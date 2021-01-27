@@ -56,4 +56,10 @@
      git init
      ```
 
-     
+   + ```
+     记录账号密码
+     解决：
+     git config --global credential.helper store
+     ```
+
+   + 
