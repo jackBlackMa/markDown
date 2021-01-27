@@ -49,4 +49,11 @@
      参考 https://nodejs.org/zh-cn/download/releases/
      ```
 
+   + ```
+     fatal: Not a git repository (or any of the parent directories): .git 
+     没有git目录
+     解决：
+     git init
+     ```
+
      
