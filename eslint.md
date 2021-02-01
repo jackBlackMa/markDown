@@ -151,3 +151,15 @@ module.exports = {
 const apple = "apple";  // eslint-disable-line
 ```
 
+
+
+## 技巧
+
+1. 根据环境开启规则
+
+   ```
+       'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+       'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+   ```
+
+   
