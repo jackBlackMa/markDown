@@ -62,5 +62,38 @@
      ```
      
      [参考](https://nodejs.org/zh-cn/download/releases/)
+     
+   + ```
+     Unexpected end of JSON input while parsing near
+     ```
+   
+     ```
+     解决方案：
+     npm cache clean --force
+     ```
+   
+   + ```
+     npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\Administrator\package.json'
+     ```
+   
+     ```
+     解决方案：
+     先运行下 npm init -f 初始化一下，就好了
+     ```
+   
+     
+   
+   + 
+   
+3. 设置代码 
+
+   + ```
+     npm config set https-proxy http://11.8.39.14:3128
+     yarn
+     yarn config set proxy http://XX
+     yarn config set https-proxy http://XX
+     ```
+
+   + 
 
 
